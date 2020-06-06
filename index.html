@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+  <div class="main-block">
+    <div class="todo-block">
+      <div class="todo-head">
+        <h2>
+            To-Do List
+        </h2>
+      </div>
+      <div class="todo-task">
+        <div class="add-task">
+          <input type="text" id="add-i-task" class="add-i-task" placeholder="A task you want to complete">
+          <label for="add-i-task" class="add-task-btn col-3">
+            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+          </label>
+        </div>
+        <div class="show-task">
+          <ul class="list-tasks" id="sortable">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+
+</body>
+</html>
